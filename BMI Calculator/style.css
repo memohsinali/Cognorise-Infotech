@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    background-color: #7F9F80;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+nav {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: yellow;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+}
+
+.calculator {
+    height: 70%;
+}
+
+input {
+    height: 30px;
+    border-color: transparent;
+}
+
+.credentials input {
+    width: 300px;
+    margin: auto;
+}
+
+.credentials {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#heightDropdown {
+    border: none;
+}
+
+#heightEnter {
+    width: 70px;
+    border: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    margin-left: 30px;
+    gap: 30px;
+}
+
+#weightDropdown {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+#heightDropdown {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+#weightEnter {
+    width: 80px;
+}
+
+#heightEnter {
+    width: 80px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    height: 400px;
+    width: 350px;
+    margin: auto;
+    background-color: #124076;
+    padding: 2rem;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    height: 400px;
+    width: 350px;
+    margin: auto;
+    background-color: #124076;
+    padding: 2rem;
+}
+
+.result p {
+    height: 70%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+@keyframes moveBackAndForth {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(50px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.stats {
+    display: none;
+}
+
+button {
+    margin-top: 30px;
+    width: 100px;
+    height: 35px;
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: black;
+    color: white;
+}

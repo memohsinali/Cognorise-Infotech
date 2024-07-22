@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="result" style="display: none;">
+            <nav>
+                <h3>STAT</h3>
+            </nav>
+            <p class="name">Name:</p>
+            <p class="age">Age:</p>
+            <p class="status">BMI:</p>
+            <button class="again button" onclick="hideStat()">Again</button>
+        </div>
+        <div class="container">
+            <nav>
+                <h3>BMI CALCULATOR</h3>
+            </nav>
+            <div class="calculator">
+                <form action="submit">
+                    <div class="credentials">
+                        <label for="name">
+                            <p>Name:</p>
+                            <input type="text" name="name" id="name" placeholder="Enter your name">
+                        </label>
+                        <label for="age">
+                            <p>Age:</p>
+                            <input type="text" name="age" id="age" placeholder="Enter your age">
+                        </label>
+                    </div>
+                    <div class="dropdown">
+                        <div class="weight">
+                            <select name="weight" id="weightDropdown">
+                                <option value="pound">pound</option>
+                                <option value="kg">kg</option>
+                                <option value="lb">lb</option>
+                            </select>
+                            <input type="text" name="weight" id="weightEnter" placeholder="Enter weight">
+                        </div>
+                        <div class="height">
+                            <select name="height" id="heightDropdown">
+                                <option value="cm">cm</option>
+                                <option value="m">m</option>
+                                <option value="feet">feet</option>
+                            </select>
+                            <input type="text" name="height" id="heightEnter" placeholder="Enter height">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <button class="submit" onclick="showResult()">SUBMIT</button>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 100vh;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+}
+
+
+.calculator {
+
+    height: 400px;
+    width: 260px;
+    padding: 1rem;
+    background-color: black;
+}
+
+
+.button {
+    height: 60px;
+    border-radius: 50px;
+    width: 60px;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: darkgray;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.button:active{
+    background-color: white;
+}
+.AC:active{
+    background-color: white;
+}
+.operator:active{
+    background-color: white;
+}
+.equal:active{
+    background-color: darkorange;
+    color: white;
+}
+
+.operator {
+    background-color: darkorange;
+    height: 60px;
+    border-radius: 50px;
+    width: 60px;
+    font-size: x-large;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.equal {
+    background-color: white;
+    height: 60px;
+    border-radius: 50px;
+    width: 60px;
+    font-size: x-large;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.AC{
+    height: 60px;
+    border-radius: 50px;
+    width: 60px;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: darkgray;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.back{
+    height: 60px;
+    border-radius: 50px;
+    width: 60px;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: darkgray;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.btns {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+    align-items: center;
+}
+
+
+#display {
+    height: 4rem;
+    width: 246px;
+    margin-bottom: 6px;
+    font-size: 2rem;
+    overflow: scroll;
+    text-align: right;
+}
