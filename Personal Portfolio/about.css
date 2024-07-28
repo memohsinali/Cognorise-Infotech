@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.img-fluid {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #fff;
+}
+
+h3 {
+    margin-top: 30px;
+}
+
+.badge {
+    font-size: 1rem;
+    padding: 10px;
+    margin: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+.list-inline-item
+{
+    color: black;
+}
+
+
+footer .img{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    justify-items: center;
+}
+
+footer .img img{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+
